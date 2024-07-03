@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio_App" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <title>Portfolio App</title>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#goals">Tech Goals</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about" class="section">
+        <div class="container">
+        <img class="profile-img" src="your-profile-picture.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture" height="300" width="400">
+        
+          <div >
+            <h1 style="color:  rgb(232, 175, 52)">About Me</h1>
+            <p>I am a frontend developer with experience in React.js. I love to create responsive and scalable frontend applications. I love to read, play basketball and write scalable and reuseable codes.</p>
+
+            <div>
+              <h2 style="color:  rgb(232, 175, 52)">Profile</h2>
+              <p>Slack Name:<span data-testid="slackDisplayName">Your Slack Name</span></p>
+              <p>Slack Email:<span data-testid="slackEmail">your-email@example.com</span></p>
+              <p>Current Time: <span data-testid="currentTimeUTC"></span></p>
+              <p>Current Day: <span data-testid="currentDay"></span></p>
+            </div>
+
+          </div>
+        
+        </div>
+      </section>
+      
+      <section id="goals" class="section">
+       
+        <h2 style="color:  rgb(232, 175, 52)  ">My Tech Goals</h2>
+        <ul class="goal-list">
+          <li>Become proficient in full-stack development</li>
+          <li>Contribute to open-source projects and have more projects in my portfolio</li>
+          <li>Mentor aspiring frontend developers</li>
+          <li>Build and deploy several personal projects</li>
+          <li>Learn about cloud computing and DevOps</li>
+          <li>Attend and speak at tech conferences</li>
+        </ul>
+        <div class="container">
+          <div>
+            <p>“Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma—which is living with the results of other people's thinking. 
+              Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.</p>
+            <p>-Steve Jobs</p>
+            <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
+              <p>-Anonymous</p>
+            </div>
+        </div>
+        <nav class="links">
+          <h1 style="color:  rgb(232, 175, 52) ">LINKS</h1>
+          <ul>
+            <li><a href="https://hng.tech/learn">HNG Tech</a></li>
+            <li><a href="https://keyword.dog/">Keyword.Dog</a></li>
+            <li><a href="https://scrapeanyweb.site/">Scrape Any Web</a></li>
+          </ul>
+      </section>
+      <section id="portfolio" class="section">
+        <h1 style="color:  rgb(232, 175, 52) ">Projects Experience</h1>
+        <div class="container">
+          
+          <div class="portfolio-item card">
+            <img src="./img-3.avif" alt="Fintech Solutions" height="400" width="400">
+            <div class="card-content">
+              <h3 style="color:  rgb(232, 175, 52)">React.js Frontend App</h3>
+              <p>Experience in building Fintech Solutions</p>
+            </div>
+          </div>
+          <div class="portfolio-item card">
+            <img src="./img-3.avif" alt="Health Care App" height="400" width="4  00">
+            <div class="card-content">
+              <h3 style="color:  rgb(232, 175, 52)">Health Care App</h3>
+              <p>Experience in building Health Care App</p>
+            </div>
+          </div>
+          <div class="portfolio-item card">
+            <img src="./img-3.avif" alt="Ecommerce Solutions" height="400" width="400">
+            <div class="card-content">
+              <h3 style="color:  rgb(232, 175, 52)" >React.js Frontend App</h3>
+              <p>Experience in building Ecommerce Solutions</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>All rights reserved Stacky_Dev © 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
